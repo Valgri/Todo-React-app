@@ -1,11 +1,11 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(to right, rgb(32, 49, 230), rgb(51, 65, 215), rgb(70, 82, 199), rgb(89, 98, 184), rgb(108, 114, 169), rgb(127, 130, 154), rgb(145, 147, 138), rgb(164, 163, 123), rgb(183, 179, 108), rgb(202, 195, 93), rgb(221, 212, 77), rgb(240, 228, 62));
+  width: 100%;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -28,11 +28,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
